@@ -12,7 +12,7 @@ public class CoordinateSystem {
         int y = scanner.nextInt();
         Point point = new Point(x, y);
         PointLocation pointLocation = new PointLocation();
-        System.out.print("Punkt (" + x + "," + y + ") ");
+        System.out.print("Punkt (" + x + ", " + y + ")");
         pointLocation.pointLocationInfo(point);
         scanner.close();
     }
